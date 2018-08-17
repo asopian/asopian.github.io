@@ -83,7 +83,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"background: url('assets/images/hero-background.jpg') no-repeat center center; height: 360px;\">\n\t<br/>\n\t<h1 style=\"text-align: center\">\n\t\t<span style=\"font: 1.75em bold; color: #ffff00\">{{title}}</span>\n\t</h1>\n</div>\n<router-outlet></router-outlet>\n\n"
+module.exports = "<div class=\"header-container header-container-sm header-container-md header-container-xl\">\n\t<h1>\n\t\t<span>{{title}}</span>\n\t</h1>\n</div>\n<router-outlet></router-outlet>\n\n"
 
 /***/ }),
 
@@ -306,7 +306,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container\">\n<label class=\"form-control\" style=\"text-align: center\"> Page {{currentPage}} / {{totalPages}}</label>\n<div class=\"input-group\">\n  <div class=\"input-group-prepend\">\n    <button class=\"btn btn-primary\" (click)=\"previousPage()\"> << Prev 20 </button>\n  </div>\n\n  <input #searchBox class=\"form-control\" (keyup)=\"search(searchBox.value)\"/>\n\n  <div class=\"input-group-append\">\n    <button class=\"btn btn-primary\" (click)=\"nextPage()\"> Next 20 >> </button>\n  </div>\n</div>\n</div>\n\n<div class=\"container\">\n  <div class=\"row\">\n  <div *ngFor=\"let poke of pokemonsDisplayed\" class=\"col-12 col-md-6 col-xl-3\">\n    <img src=\"assets/images/{{poke.id}}.png\"/>\n    #{{poke.id}} {{poke.name}} \n  </div>\n  </div>\n</div>\n"
+module.exports = "\n<div class=\"container\">\n<label class=\"form-control\" style=\"text-align: center\"> Page {{currentPage}} / {{totalPages}}</label>\n<div class=\"input-group\">\n  <div class=\"input-group-prepend\">\n    <button class=\"btn btn-primary\" (click)=\"previousPage()\"> << Prev 20 </button>\n  </div>\n\n  <input #searchBox class=\"form-control\" (keyup)=\"search(searchBox.value)\" placeholder=\"Enter search term here...\" />\n\n  <div class=\"input-group-append\">\n    <button class=\"btn btn-primary\" (click)=\"nextPage()\"> Next 20 >> </button>\n  </div>\n</div>\n</div>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-12 col-md-6 col-xl-3\" *ngFor=\"let poke of pokemonsDisplayed\">\n      <div class=\"container\">\n        <div class=\"row\" style=\"align-items: center; text-align: center;\">\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            <img src=\"assets/images/{{poke.id}}.png\" />\n          </div>\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            #{{poke.id}}<br/>{{poke.name}}\n          </div>\n          <div class=\"col-12\">\n            <br/>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 

@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n\n@media only screen and (max-width: 767px) {\n\n.header-container-sm {\n\t/*background-size: contain;*/\n}\n\n.header-container-sm h1 span {\n\tline-height: 3em;\n\tfont-size: 1.5em;\n}\n}\n\n@media only screen and (min-width: 768px) and (max-width: 1199px) {\n\n.header-container-md {\n\t/*background-size: contain;*/\n}\n\n.header-container-md h1 span {\n\tline-height: 2.3em;\n\tfont-size: 2em;\n}\n}\n\n@media only screen and (min-width: 1200px) {\n\n.header-container-xl {\n\t/*background-size: contain;*/\n}\n\n.header-container-xl h1 span {\n\tline-height: 1.75em;\n\tfont-size: 2.5em;\n}\n}\n\n.header-container {\n\tbackground-image: url('hero-background.jpg');\n\tbackground-repeat: no-repeat;\n\tbackground-size: 100% 360px;\n\theight: 360px;\n}\n\n.header-container h1 {\n\ttext-align: center;\n}\n\n@font-face {\n\tfont-family: Pokemon-Hollow;\n\tsrc: url('Pokemon-Hollow.ttf');\n}\n\n@font-face {\n\tfont-family: Pokemon-Solid;\n\tsrc: url('Pokemon-Solid.ttf');\n}\n\n.header-container h1 span {\n\tfont-family: Pokemon-Solid;\n\tletter-spacing: 0.1em;\n\tcolor: yellow;\n\tfont-weight: bold;\n\twhite-space: nowrap;\n}\n"
 
 /***/ }),
 
