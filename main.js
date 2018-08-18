@@ -83,7 +83,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"header-container header-container-sm header-container-md header-container-xl\">\n\t<h1>\n\t\t<span>{{title}}</span>\n\t</h1>\n</div>\n<router-outlet></router-outlet>\n\n"
+module.exports = "<div class=\"header-container header-container-xs header-container-sm header-container-md header-container-lg header-container-xl\">\n\t<h1>\n\t\t<span>{{title}}</span>\n\t</h1>\n</div>\n<router-outlet></router-outlet>\n\n"
 
 /***/ }),
 
