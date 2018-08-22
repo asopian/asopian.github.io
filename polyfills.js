@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\workspace\interview_and_personal_projects\pokemon-gallery\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /data/data/com.termux/files/home/workspace/asopian-pokemon-gallery/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

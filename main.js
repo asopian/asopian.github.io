@@ -365,7 +365,7 @@ var Pokemon = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".pokerow {\n\talign-items: center;\n\ttext-align: center;\n}\n\n.pokerow img {\n\tbackground-color: #f0f0f0;\n\tborder-radius: 10px;\n}\n\n"
 
 /***/ }),
 
@@ -376,7 +376,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container\">\n<label class=\"form-control\" style=\"text-align: center\"> Page {{currentPage}} / {{totalPages}}</label>\n<div class=\"input-group\">\n  <div class=\"input-group-prepend\">\n    <button class=\"btn btn-primary\" (click)=\"previousPage()\"> << Prev 20 </button>\n  </div>\n\n  <input #searchBox class=\"form-control\" (keyup)=\"search(searchBox.value)\" placeholder=\"Enter search term here...\" />\n\n  <div class=\"input-group-append\">\n    <button class=\"btn btn-primary\" (click)=\"nextPage()\"> Next 20 >> </button>\n  </div>\n</div>\n</div>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-12 col-md-6 col-xl-3\" *ngFor=\"let poke of pokemonsDisplayed\">\n      <div class=\"container\">\n        <div class=\"row\" style=\"align-items: center; text-align: center;\">\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            <img src=\"assets/images/{{poke.id}}.png\" />\n          </div>\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            #{{poke.id}}<br/>{{poke.name}}\n          </div>\n          <div class=\"col-12\">\n            <br/>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "\n<div class=\"container\">\n<label class=\"form-control\" style=\"text-align: center\"> Page {{currentPage}} / {{totalPages}}</label>\n<div class=\"input-group\">\n  <div class=\"input-group-prepend\">\n    <button class=\"btn btn-primary\" (click)=\"previousPage()\"> &lt;&lt;&nbsp; Prev 20 </button>\n  </div>\n\n  <input #searchBox class=\"form-control\" (keyup)=\"search(searchBox.value)\" placeholder=\"Enter search term here...\" />\n\n  <div class=\"input-group-append\">\n    <button class=\"btn btn-primary\" (click)=\"nextPage()\"> Next 20 &nbsp;&gt;&gt; </button>\n  </div>\n</div>\n</div>\n\n<br />\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-12 col-md-6 col-xl-3\" *ngFor=\"let poke of pokemonsDisplayed\">\n      <div class=\"container\">\n        <div class=\"row pokerow\">\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            <img src=\"assets/images/{{poke.id}}.png\" />\n          </div>\n          <div class=\"col-6 col-md-12 col-xl-12\">\n            <div>#{{poke.id}}</div>\n            <div>{{poke.name}}</div>\n          </div>\n          <div class=\"col-12\">\n            <br/>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -526,7 +526,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\workspace\interview_and_personal_projects\pokemon-gallery\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /data/data/com.termux/files/home/workspace/asopian-pokemon-gallery/src/main.ts */"./src/main.ts");
 
 
 /***/ })
